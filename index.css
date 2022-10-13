@@ -1,0 +1,101 @@
+body{
+    background-color: rgb(212, 212, 212);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+/* Setting text Color with colors name */
+.one {
+    color: darkslategrey;
+    border: 2px solid darkslategrey;
+    margin: 15px;
+    padding: 15px;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.7s;
+    border-radius: 8px;
+}
+
+.one:hover{
+    border-radius: 8px;
+    background-color: darkslategrey;
+    color: aliceblue;
+    font-size: 1.5rem;
+}
+
+/* Setting text color with colors hexadecimal code */
+.two {
+    color: #423737;
+    border: 2px solid #423737;
+    margin: 15px;
+    padding: 15px;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.7s;
+    border-radius: 8px;
+}
+
+.two:hover{
+    border-radius: 8px;
+    background-color: #423737;
+    color: aliceblue;
+    font-size: 1.5rem;
+}
+
+
+/*  Setting text color with RGB Values */
+.three {
+    color: rgb(196, 69, 69);
+    border: 2px solid rgb(196, 69, 69);
+    margin: 15px;
+    padding: 15px;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.7s;
+    border-radius: 8px;
+}
+
+.three:hover{
+    border-radius: 8px;
+    background-color: rgb(196, 69, 69);
+    color: aliceblue;
+    font-size: 1.5rem;
+}
+
+/*  Setting text color with RGBA Values */
+.four {
+    color: rgba(124, 24, 255, 0.678);
+    border: 2px solid rgba(124, 24, 255, 0.678);
+    margin: 15px;
+    padding: 15px;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.7s;
+    border-radius: 8px;
+}
+
+.four:hover{
+    border-radius: 8px;
+    background-color: rgba(124, 24, 255, 0.678);
+    color: aliceblue;
+    font-size: 1.5rem;
+}
+
+/*  Setting text color with HSL Method */
+.five{
+    color: hsl(30, 54%, 59%);
+    border: 2px solid hsl(15, 54%, 59%);
+    margin: 15px;
+    padding: 15px;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.7s;
+    border-radius: 8px;
+}
+.five:hover{
+    background-color: hsl(15, 54%, 59%);
+    border-radius: 8px;
+    color: aliceblue;
+    font-size: 1.5rem;
+}
+
